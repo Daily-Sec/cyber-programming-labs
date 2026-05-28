@@ -1,9 +1,11 @@
 Lab 01: Repository Code Audit
+
 Objective: Internal code review and history analysis.
 
 ---
 
 Scenario:
+
 During a recent security audit of our internal project history, it was discovered that a junior engineer accidentally committed a production database credential to this repository. 
 
 Although they quickly realized their mistake, deleted the file, and pushed a secondary commit to remove it, the sensitive data remains accessible within the Git history metadata. 
